@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+
 
 
 export default function Header(props) {// props pass data can also give {title , clkljklkljkljl} curly brace are imp
