@@ -8,6 +8,9 @@ import AddTodo from './MyComponents/AddTodo'
 import React, { useState } from 'react';
 // className is jsx java script syntax extension
 
+
+
+
 function App() {
   const addTodo = (title ,desc)=>{
     let sno;
@@ -19,12 +22,14 @@ function App() {
     }
     if(title && desc){
       const mytodo = {
-        sno:sno,
+        sn0:sno,
         title:title,
         desc:desc
       };
       settodos([...todos,mytodo])
     }
+    console.log(sno);
+    return todos;
   }
   const onDelete = (todo)=>{
     // var ind = todos.indexOf(todo);
